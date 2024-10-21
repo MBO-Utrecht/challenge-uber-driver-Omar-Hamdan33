@@ -224,9 +224,9 @@ GameObject:
   m_Component:
   - component: {fileID: 802139553}
   - component: {fileID: 802139552}
-  - component: {fileID: 802139551}
   - component: {fileID: 802139554}
   - component: {fileID: 802139556}
+  - component: {fileID: 802139557}
   m_Layer: 0
   m_Name: UberDriver
   m_TagString: Untagged
@@ -234,22 +234,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &802139551
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 802139550}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d1f2cb3b63108b4daca95bc0beda2e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  steerSpeed: 200
-  moveSpeed: 18
-  slowSpeed: 0
-  boostSpeed: 30
 --- !u!212 &802139552
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -291,7 +275,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 3c466a88051e6bd45b792c9e7e947351, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3a53d42c4ac47714cb9ee885bfb1a1b3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -380,7 +364,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.82, y: 3.54}
+    oldSize: {x: 1.77, y: 3.55}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -389,6 +373,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.4568796, y: 3.4163265}
   m_EdgeRadius: 0
+--- !u!114 &802139557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802139550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f82f018bce1c9554885a7c13caa6d4a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
